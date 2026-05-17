@@ -2,7 +2,7 @@ aid: component-model
 url: >-
   https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/apis.yml
 name: Component Model
-x-type: standard
+kind: standard
 description: >-
   The WebAssembly Component Model is a broad-reaching architecture for
   building interoperable WebAssembly libraries, applications, and
@@ -109,7 +109,7 @@ apis:
     properties:
       - type: Documentation
         url: https://wasi.dev/
-      - type: GitHub Organization
+      - type: GitHubOrganization
         url: https://github.com/WebAssembly/WASI
       - type: Reference
         url: https://github.com/WebAssembly/wasi-http
@@ -168,7 +168,7 @@ common:
     url: https://component-model.bytecodealliance.org/design/
   - type: GitHubRepository
     url: https://github.com/WebAssembly/component-model
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/WebAssembly
   - type: Reference
     url: https://wasi.dev/

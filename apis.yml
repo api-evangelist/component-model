@@ -13,7 +13,7 @@ description: >-
   and a concurrency model. The Component Model underpins the WebAssembly
   System Interface (WASI) Preview 2 and is the foundation for portable Wasm
   on browsers, servers, edge, and embedded environments.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - ABI
   - Bytecode Alliance

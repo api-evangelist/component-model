@@ -162,6 +162,8 @@ apis:
       - Generating language bindings from WIT
       - Building serverless Wasm functions on Spin
 common:
+  - type: DomainSecurity
+    url: security/component-model-domain-security.yml
   - type: Website
     url: https://component-model.bytecodealliance.org/
   - type: Documentation

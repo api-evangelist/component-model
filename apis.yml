@@ -30,6 +30,17 @@ tags:
   - ABI
   - Bytecode Alliance
   - Component
+  - Interfaces
+  - Modular
+  - Specification
+  - WASI
+  - WebAssembly
+  - WIT
+  - World
+tags_raw:
+  - ABI
+  - Bytecode Alliance
+  - Component
   - Interface
   - Modular
   - Specification
@@ -85,6 +96,11 @@ apis:
     humanURL: https://component-model.bytecodealliance.org/design/wit.html
     baseURL: https://component-model.bytecodealliance.org
     tags:
+      - Bindings
+      - IDL
+      - Interfaces
+      - WIT
+    tags_raw:
       - Bindings
       - IDL
       - Interface

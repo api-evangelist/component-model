@@ -13,6 +13,17 @@ description: >-
   and a concurrency model. The Component Model underpins the WebAssembly
   System Interface (WASI) Preview 2 and is the foundation for portable Wasm
   on browsers, servers, edge, and embedded environments.
+deliveryModel:
+  model: unknown
+  open_source: unknown
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - repository-unlicensed
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown

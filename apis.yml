@@ -41,7 +41,7 @@ tags:
   - ABI
   - Bytecode Alliance
   - Component
-  - Interfaces
+  - Interface
   - Modular
   - Specification
   - WASI
@@ -109,7 +109,7 @@ apis:
     tags:
       - Bindings
       - IDL
-      - Interfaces
+      - Interface
       - WIT
     tags_raw:
       - Bindings

@@ -15,6 +15,10 @@ description: >-
   on browsers, servers, edge, and embedded environments.
 deliveryModel:
   model: unknown
+  license_evidence:
+    repo: webassembly/component-model
+    spdx: NOASSERTION
+    stars: 1374
   open_source: unknown
   commercial: false
   callable_host: false
@@ -22,7 +26,7 @@ deliveryModel:
   confidence: low
   source:
   - repository-unlicensed
-  generated: '2026-08-28'
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: freemium
@@ -105,7 +109,6 @@ apis:
       worlds. WIT is consumed by language toolchains to generate bindings
       and by runtimes to validate and link components at load time.
     humanURL: https://component-model.bytecodealliance.org/design/wit.html
-    baseURL: https://component-model.bytecodealliance.org
     tags:
       - Bindings
       - IDL

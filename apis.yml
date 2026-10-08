@@ -204,6 +204,12 @@ apis:
       - Generating language bindings from WIT
       - Building serverless Wasm functions on Spin
 common:
+  - type: Plans
+    url: plans/component-model-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/component-model-rate-limits.yml
+  - type: FinOps
+    url: finops/component-model-finops.yml
   - type: IssueTracker
     url: https://github.com/WebAssembly/component-model/issues
   - type: CodeOfConduct

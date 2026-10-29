@@ -64,65 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-The WebAssembly Component Model is a broad-reaching architecture for building interoperable WebAssembly libraries, applications, and environments. It defines components as portable, sandboxed units of code that can compose with each other across language and runtime boundaries. The model introduces interfaces, worlds, and the WebAssembly Interface Type (WIT) language, along with a canonical ABI, binary and text formats, and a concurrency model.
+The WebAssembly Component Model is a broad-reaching architecture for building interoperable WebAssembly libraries, applications, and environments. It defines components as portable, sandboxed units of code that can compose with each other across language and runtime boundaries. The model introduces interfaces, worlds, and the WebAssembly Interface Type (WIT) language, along with a canonical ABI, binary and text formats, and a concurrency model. The Component Model underpins the WebAssembly System Interface (WASI) Preview 2 and is the foundation for portable Wasm on browsers, servers, edge, and embedded environments.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/apis.yml)
+**Areas:** ABI · Bytecode Alliance · Components · Interfaces · Modular · Specification · WASI · WebAssembly · WIT · World
 
-## Tags
+## Component Model on APIs.io
 
-- ABI, Bytecode Alliance, Component, Interface, Modular, Specification, WASI, WebAssembly, WIT, World
+Everything profiled for Component Model is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/component-model/](https://apis.io/providers/component-model/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (4)
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+- [WebAssembly Component Model Specification](https://apis.io/apis/component-model/specification/) — The Component Model specification repository under the W3C WebAssembly Community Group. Contains design documents, the formal specification drafts, the WIT…
+- [WebAssembly Interface Type (WIT)](https://apis.io/apis/component-model/wit/) — WIT is the interface definition language for the Component Model. WIT describes the imports and exports of a component using interfaces and worlds. WIT is…
+- [WebAssembly System Interface Preview 2](https://apis.io/apis/component-model/wasi-preview-2/) — WASI Preview 2 is the first WASI release built on the Component Model. It defines a set of interfaces such as wasi:filesystem, wasi:io, wasi:http, wasi:cli,…
+- [Component Model Implementations](https://apis.io/apis/component-model/bytecode-alliance-implementations/) — A landscape of toolchains and runtimes that implement the Component Model, including Wasmtime, Jco, wit-bindgen language bindings, cargo-component for Rust,…
 
-## APIs
+### Published properties
 
-### WebAssembly Component Model Specification
-The W3C WebAssembly Community Group repository for design documents, the formal specification, the WIT grammar, the canonical ABI, and the binary and text formats.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://github.com/WebAssembly/component-model](https://github.com/WebAssembly/component-model)
+#### Security (1)
 
-#### Tags
-- Specification, W3C, WebAssembly
+Authentication, trust centre, and vulnerability disclosure.
 
-### WebAssembly Interface Type (WIT)
-The interface definition language for the Component Model. Describes imports and exports of a component using interfaces and worlds.
+- [Component Model Domain Security](https://apis.io/security/component-model/component-model-domain-security/)
 
-**Human URL:** [WIT design](https://component-model.bytecodealliance.org/design/wit.html)
+#### Plans and pricing (1)
 
-#### Tags
-- Bindings, IDL, Interface, WIT
+Published plans, tiers and prices.
 
-### WebAssembly System Interface Preview 2
-The first WASI release built on the Component Model. Defines wasi:filesystem, wasi:io, wasi:http, wasi:cli, and wasi:sockets.
+- [Component Model Plans Pricing](https://apis.io/plans/component-model/component-model-plans-pricing/)
 
-**Human URL:** [https://wasi.dev/](https://wasi.dev/)
+#### Rate limits (1)
 
-#### Tags
-- System Interface, WASI, Capabilities
+Published request limits.
 
-### Component Model Implementations
-Wasmtime, Jco, wit-bindgen, cargo-component, ComponentizeJS, Spin, and other toolchains and runtimes that implement the Component Model.
+- [Component Model Rate Limits](https://apis.io/rate-limits/component-model/component-model-rate-limits/)
 
-**Human URL:** [https://bytecodealliance.org/](https://bytecodealliance.org/)
+#### FinOps (1)
 
-#### Tags
-- Bytecode Alliance, Implementations, Runtimes, Toolchains
+What the API costs to run, by operation.
 
-## Common Properties
+- [Component Model Finops](https://apis.io/finops/component-model/component-model-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://component-model.bytecodealliance.org/)
 - [Documentation](https://component-model.bytecodealliance.org/design/)
-- [GitHubRepository](https://github.com/WebAssembly/component-model)
-- [GitHub Organization](https://github.com/WebAssembly)
-- [WASI](https://wasi.dev/)
-- [Bytecode Alliance](https://bytecodealliance.org/)
-- [W3C Community Group](https://www.w3.org/community/webassembly/)
+- [GitHub](https://github.com/WebAssembly)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 11.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/component-model/](https://apis.io/providers/component-model/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Component Model: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/component-model/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
